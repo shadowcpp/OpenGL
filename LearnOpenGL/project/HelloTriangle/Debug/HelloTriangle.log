@@ -1,0 +1,32 @@
+﻿  HelloTriangle.cpp
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+HelloTriangle.obj : error LNK2019: 无法解析的外部符号 _gladLoadGLLoader，该符号在函数 _main 中被引用
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glClear
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glClearColor
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glViewport
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glDrawArrays
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glBindBuffer
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glDeleteBuffers
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glGenBuffers
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glBufferData
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glAttachShader
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glCompileShader
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glCreateProgram
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glCreateShader
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glDeleteProgram
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glDeleteShader
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glEnableVertexAttribArray
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glGetProgramiv
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glGetProgramInfoLog
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glGetShaderiv
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glGetShaderInfoLog
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glLinkProgram
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glShaderSource
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glUseProgram
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glVertexAttribPointer
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glBindVertexArray
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glDeleteVertexArrays
+HelloTriangle.obj : error LNK2001: 无法解析的外部符号 _glad_glGenVertexArrays
+C:\Users\shado\Documents\study\openGL\Porject\LearnOpenGL\\..\dependency\libs\glew32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+C:\Users\shado\Documents\study\openGL\Porject\LearnOpenGL\\..\dependency\libs\glfw3dll.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+C:\Users\shado\Documents\study\openGL\Porject\LearnOpenGL\Debug\HelloTriangle.exe : fatal error LNK1120: 27 个无法解析的外部命令
